@@ -1,0 +1,26 @@
+[5843fb76] ── Job started ──────────────────────────────────
+[5843fb76] Downloading: https://www.youtube.com/live/GSPk4cXqMa8?si=3QFcBaS9CC8pXBEf
+[5843fb76] yt-dlp returncode: 0
+[5843fb76] yt-dlp stdout tail:
+s   
+[Merger] Merging formats into "/Users/red_jeff/Downloads/clipper/downloads/5843fb76.mp4"
+Deleting original file /Users/red_jeff/Downloads/clipper/downloads/5843fb76.f398.mp4 (pass -k to keep)
+Deleting original file /Users/red_jeff/Downloads/clipper/downloads/5843fb76.f140.m4a (pass -k to keep)
+
+[5843fb76] Downloaded file: /Users/red_jeff/Downloads/clipper/downloads/5843fb76.mp4 (85180 KB)
+[5843fb76] Has video stream: True | ffprobe stdout: 'video'
+[5843fb76] Extracting audio...
+[5843fb76] Audio extracted: 25293 KB
+[5843fb76] Starting Whisper transcription...
+[5843fb76] Whisper returncode: 0
+[5843fb76] Whisper stdout: done
+[5843fb76] Transcript segments: 199 | chars sent to Claude: 4531
+[5843fb76] Claude raw response (first 500 chars):
+```json
+{
+  "clips": []
+}
+```
+[5843fb76] Claude suggested 0 clips
+[5843fb76] Cutting 0 clips from 5843fb76.mp4
+[5843fb76] ── Done: 0 clips ready ─────────────

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg -y -ss 0 -i /Users/red_jeff/Downloads/clipper/downloads/test.m4a -t 10 -vf \"scale=1080:1920:force_original_aspect_ratio=decrease:flags=lanczos,pad=1080:1920:\\(ow-iw\\)/2:\\(oh-ih\\)/2:black\" -c:v libx264 -crf 23 -preset fast -c:a aac -b:a 128k /tmp/test_clip.mp4)"
+    ]
+  }
+}

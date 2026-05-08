@@ -1,0 +1,31 @@
+[861659e0] ── Job started ──────────────────────────────────
+[861659e0] Downloading: https://www.youtube.com/live/GSPk4cXqMa8?si=3QFcBaS9CC8pXBEf
+[861659e0] yt-dlp returncode: 0
+[861659e0] yt-dlp stdout tail:
+B/s 
+[Merger] Merging formats into "/Users/red_jeff/Downloads/clipper/downloads/861659e0.mp4"
+Deleting original file /Users/red_jeff/Downloads/clipper/downloads/861659e0.f140.m4a (pass -k to keep)
+Deleting original file /Users/red_jeff/Downloads/clipper/downloads/861659e0.f398.mp4 (pass -k to keep)
+
+[861659e0] Downloaded file: /Users/red_jeff/Downloads/clipper/downloads/861659e0.mp4 (85180 KB)
+[861659e0] Has video stream: True | ffprobe stdout: 'video'
+[861659e0] Extracting audio...
+[861659e0] Audio extracted: 25293 KB
+[861659e0] Starting Whisper transcription...
+[861659e0] Whisper returncode: 0
+[861659e0] Whisper stdout: done
+[861659e0] Transcript segments: 199 | chars sent to Claude: 4531
+[861659e0] Claude raw response (first 500 chars):
+{"clips": [{"start": 0.0, "end": 32.0, "title": "The 1.5% Challenge Begins", "reason": "Opening segment that sets up the context - viewers will want to understand what the 1.5% refers to, creating curiosity and engagement", "hook": "1.5% - what does it mean?"}, {"start": 58.0, "end": 90.0, "title": "Still Going at 1.5%", "reason": "Mid-content segment showing persistence or a recurring theme - the repetition creates a meme-worthy moment that viewers can relate to", "hook": "The grind continues a
+[861659e0] Claude suggested 3 clips
+[861659e0] Cutting 3 clips from 861659e0.mp4
+[861659e0] Clip 1: 0.0s → 32.0s (duration=32.0s)
+[861659e0] Running ffmpeg for clip 1...
+[861659e0] Clip 1 ffmpeg returncode: 0
+[861659e0] Clip 2: 58.0s → 90.0s (duration=32.0s)
+[861659e0] Running ffmpeg for clip 2...
+[861659e0] Clip 2 ffmpeg returncode: 0
+[861659e0] Clip 3: 782.0s → 814.0s (duration=32.0s)
+[861659e0] Running ffmpeg for clip 3...
+[861659e0] Clip 3 ffmpeg returncode: 0
+[861659e0] ── Done: 3 clips ready ─────────────
